@@ -1,0 +1,71 @@
+:root {
+    --pri: #0802A3;
+    --acc: #FF7676;
+    --sec: #FF0060;
+    --nue: #fff;
+    --grey: #d0d0d0;
+    --red: #ff0000;
+    --green: #00ff00;
+}
+
+.text-pri {
+    color: var(--pri);
+}
+
+.text-red {
+    color: var(--red);
+}
+.text-green{
+    color: var(--green);
+}
+
+.text-grey {
+    color: var(--grey) !important;
+}
+
+.text-sec {
+    color: var(--sec);
+}
+
+.text-acc {
+    color: var(--acc);
+}
+
+.text-nue {
+    color: var(--nue);
+}
+
+.bg-pri {
+    background: var(--pri);
+}
+
+.bg-grey {
+    background: var(--grey) !important;
+}
+.bg-red {
+    background: var(--red);
+}
+
+.bg-green {
+    background: var(--green);
+}
+
+.bg-sec {
+    background: var(--sec);
+}
+
+.bg-acc {
+    background: var(--acc);
+}
+
+.bg-neu {
+    background: var(--neu);
+}
+
+
+.table{
+    --bs-table-bg: auto;
+}
+.c-pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    /* padding-top: 55.6px; */
+}
+
+.fa {
+    font-family: 'FontAwesome';
+}
+
+/* .dashboard-container {
+    margin-top: 50px;
+} */
+
+
+
+.dashboard-option {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 3/1;
+}
+
+.dashboard-option:hover {
+    background-color: #f0f0f0;
+}
+
+.dashboard-option i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.fa-caret-up,
+.fa-caret-down {
+    background: #ddd;
+    font-size: 30px !important;
+}
+
+
+
+.dashboard-option {
+    color: var(--pri);
+}
+
+.navbar a {
+    color: var(--nue);
+}
+
+.container.overflow-scroll::-webkit-scrollbar {
+    width: 0px;
+
+}
