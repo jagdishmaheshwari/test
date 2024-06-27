@@ -632,5 +632,5 @@ if (isset($_SESSION['AdminID'])) {
 } else {
     header('location: login');
 }
-
+// convert to laravel blade view use image url from unsplash for now. i will implement it letter. from all add update delete function which sends action parameter to the server remove the action parameter from it instead use POST method for add product, PUT method for update and DELETE method for delete response will be array named status => success so change it in response. also use admin.items.add/update/delete route
 ?>
